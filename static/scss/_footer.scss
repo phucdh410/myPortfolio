@@ -4,6 +4,7 @@
     .container{
         display: flex;
         gap: 30px;
+        margin: 40px auto;
     }
     .footer__col1, .footer__col2, .footer__col3, .footer__col4{
         flex: 1 1 0%;
@@ -12,6 +13,9 @@
         margin-top: 5px;
     }
     .copyright{
+        .container{
+            margin: 0px 190px;
+        }
         background-color: $bgColor;
         text-align: left;
         margin-top: 20px;

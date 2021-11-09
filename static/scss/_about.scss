@@ -72,6 +72,9 @@
         gap: 15px;
         position: absolute;
         left: 150px;
+        p{
+            margin: 5px auto;
+        }
     }
     .list__item{
         background-color: $bgitemColor;
