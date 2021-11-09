@@ -1,7 +1,11 @@
+#root {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1200px;
-  width: 100%;
-  margin: 150px auto;
+  width: 90%;
+  margin: 0px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -162,8 +166,9 @@ svg, img {
 }
 
 .hero1 {
-  height: 757px;
-  min-height: 700px;
+  padding: 100px 0px;
+  height: 100vh;
+  min-height: 1000px;
   width: 100%;
   text-align: center;
   -webkit-box-align: center;
@@ -276,11 +281,15 @@ svg, img {
   line-height: 1.3em;
 }
 
+.hero2 {
+  padding: 100px 0px;
+}
+
 .hero2 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: left;
+  -webkit-box-align: center;
   -ms-flex-align: center;
       align-items: center;
   -webkit-box-pack: start;
@@ -290,8 +299,15 @@ svg, img {
 }
 
 .hero2 .hero2__info {
+  max-width: 500px;
+  margin: 0px auto;
+  font-size: 24px;
   line-height: 30px;
-  font-size: 22px;
+}
+
+.hero2 .hero2__info p {
+  margin-top: 20px;
+  margin-left: 0px;
 }
 
 .hero2 .section-title {
@@ -317,11 +333,7 @@ svg, img {
   margin-top: 20px;
 }
 
-.hero2 .aboutSection__left {
-  max-width: 500px;
-}
-
-.set .aboutSection__left, .set .aboutSection__right {
+.hero2 .aboutSection__right {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0%;
           flex: 1 1 0%;
@@ -343,6 +355,10 @@ svg, img {
 
 .space .button {
   margin-top: -15px;
+}
+
+.services {
+  padding: 100px 0px;
 }
 
 .services__allItems {
@@ -387,6 +403,10 @@ svg, img {
 .set p {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
+}
+
+.homeprojects {
+  padding: 100px 0px;
 }
 
 .homeprojects .swiper-container {
@@ -452,6 +472,7 @@ svg, img {
   background-color: #1e1e1e;
   padding: 10px;
   border-radius: 12px;
+  min-height: 130px;
 }
 
 .projectItem .projectItem__title {
@@ -465,7 +486,7 @@ svg, img {
   text-align: left;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 10px;
+  margin: 10px 0px 0px !important;
 }
 
 .testi {
@@ -481,7 +502,7 @@ svg, img {
 .testi .layout {
   max-width: 500px;
   margin: 0px auto;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
 }
 
@@ -564,6 +585,10 @@ svg, img {
   }
 }
 
+.contactNow {
+  padding: 100px 0px;
+}
+
 .contactNow .contactNow__content {
   background-color: #1e1e1e;
   text-align: center;
@@ -584,8 +609,7 @@ svg, img {
 }
 
 .about {
-  padding: 40px 0px 25px;
-  margin-bottom: -160px;
+  padding: 200px 0px 100px;
 }
 
 .about .aboutInfo {
@@ -612,7 +636,7 @@ svg, img {
 .about .layout {
   max-width: 500px;
   margin: 0px auto;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
   margin-left: 0px;
@@ -637,7 +661,7 @@ svg, img {
 .about .about__des .layout {
   max-width: 500px;
   margin: 0px auto;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
   max-width: 100%;
 }
@@ -777,6 +801,10 @@ svg, img {
   margin-top: 15px;
 }
 
+.contactPage {
+  padding: 100px 0px;
+}
+
 .contactPage .contactSection__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -792,16 +820,25 @@ svg, img {
 }
 
 .contactPage .contactSection__wrapper ::after {
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: 50%;
-  background-color: #bcb4b4;
-  left: 50%;
-  top: 30%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  color: #bcb4b4;
+  display: none;
+}
+
+@media screen and (min-width: 1162px) {
+  .contactPage .contactSection__wrapper ::after {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50%;
+    background-color: #bcb4b4;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: #bcb4b4;
+  }
 }
 
 .contactPage .left {

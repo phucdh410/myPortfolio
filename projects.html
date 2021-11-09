@@ -11,103 +11,110 @@
 </head>
 
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="index.html">Home</a> </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <div id="root">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
 
-    <div>
-        <div class="projects">
-            <div class="container">
-                <div class="set section-title">
-                    <p>some of recent works</p>
-                    <h2>Projects</h2>
-                </div>
-                <div class="projects__search">
-                    <form>
-                        <input type="text" placeholder="Project Name" value>
-                        <svg viewBox="0 0 24 24" class="searchIcon" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 
-                            3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 
-                            4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 
-                            9.5 11.99 14 9.5 14z">
-                            </path>
-                        </svg>
-                    </form>
-                </div>
-                <div class="projects__allItems">
-                    <div class="items">
-                        <a class="projectsItem__img" href="projects.html">
-                            <img src="https://reacjs-portfolio03102021.vercel.app/static/media/utracker.be1fe64a.jpg">
-                        </a>
-                        <div class="projectsItem__info">
-                            <a href="projects.html">
-                                <h3 class="projectsItem__title">U Tracker</h3>
-                            </a>
-                            <p class="projectsItem__des">
-                                An application to track your all data from one place. I developed the website and the
-                                mobile app
-                            </p>
-                        </div>
+        <div>
+            <div class="projects">
+                <div class="container">
+                    <div class="set section-title">
+                        <p>some of recent works</p>
+                        <h2>Projects</h2>
                     </div>
-                    <div class="items">
-                        <a class="projectsItem__img" href="projects.html">
-                            <img src="https://reacjs-portfolio03102021.vercel.app/static/media/greenctg.e51b3bbd.jpg">
-                        </a>
-                        <div class="projectsItem__info">
-                            <a href="projects.html">
-                                <h3 class="projectsItem__title">Green CTG</h3>
-                            </a>
-                            <p class="projectsItem__des">
-                                An app to help people to get an overview of how they can make the city beautiful.
-                            </p>
-                        </div>
+                    <div class="projects__search">
+                        <form>
+                            <input type="text" placeholder="Project Name" value>
+                            <svg viewBox="0 0 24 24" class="searchIcon" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 
+                                    3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 
+                                    4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 
+                                    9.5 11.99 14 9.5 14z">
+                                </path>
+                            </svg>
+                        </form>
                     </div>
-                    <div class="items">
-                        <a class="projectsItem__img" href="projects.html">
-                            <img
-                                src="https://reacjs-portfolio03102021.vercel.app/static/media/cointracker.8da9e0cd.jpg">
-                        </a>
-                        <div class="projectsItem__info">
-                            <a href="projects.html">
-                                <h3 class="projectsItem__title">Coin Tracker</h3>
+                    <div class="projects__allItems">
+                        <div class="items">
+                            <a class="projectsItem__img" href="projects.html">
+                                <img
+                                    src="https://reacjs-portfolio03102021.vercel.app/static/media/utracker.be1fe64a.jpg">
                             </a>
-                            <p class="projectsItem__des">
-                                Using this app you can track any e coin.
-                                Also you will get a good advise about investment form the professional
-                            </p>
+                            <div class="projectsItem__info">
+                                <a href="projects.html">
+                                    <h3 class="projectsItem__title">U Tracker</h3>
+                                </a>
+                                <p class="projectsItem__des">
+                                    An application to track your all data from one place. I developed the website and
+                                    the
+                                    mobile app
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="items">
-                        <a class="projectsItem__img" href="projects.html">
-                            <img src="https://reacjs-portfolio03102021.vercel.app/static/media/cavinimg.77adeaa3.jpg">
-                        </a>
-                        <div class="projectsItem__info">
-                            <a href="projects.html">
-                                <h3 class="projectsItem__title">Cavin's Portfolio</h3>
+                        <div class="items">
+                            <a class="projectsItem__img" href="projects.html">
+                                <img
+                                    src="https://reacjs-portfolio03102021.vercel.app/static/media/greenctg.e51b3bbd.jpg">
                             </a>
-                            <p class="projectsItem__des">
-                                A portfolio for Cavin jr. A artist from New york city.
-                                The portfolio is made using ReactJs and GatsbyJs.
-                            </p>
+                            <div class="projectsItem__info">
+                                <a href="projects.html">
+                                    <h3 class="projectsItem__title">Green CTG</h3>
+                                </a>
+                                <p class="projectsItem__des">
+                                    An app to help people to get an overview of how they can make the city beautiful.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="items">
-                        <a class="projectsItem__img" href="projects.html">
-                            <img src="https://reacjs-portfolio03102021.vercel.app/static/media/projectImg.771236e1.png">
-                        </a>
-                        <div class="projectsItem__info">
-                            <a href="projects.html">
-                                <h3 class="projectsItem__title">Tracking Soft</h3>
+                        <div class="items">
+                            <a class="projectsItem__img" href="projects.html">
+                                <img
+                                    src="https://reacjs-portfolio03102021.vercel.app/static/media/cointracker.8da9e0cd.jpg">
                             </a>
-                            <p class="projectsItem__des">
-                                A tracking website that will show the performance of the website.
-                                Also you will get some useful advice to improve the performance.
-                            </p>
+                            <div class="projectsItem__info">
+                                <a href="projects.html">
+                                    <h3 class="projectsItem__title">Coin Tracker</h3>
+                                </a>
+                                <p class="projectsItem__des">
+                                    Using this app you can track any e coin.
+                                    Also you will get a good advise about investment form the professional
+                                </p>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <a class="projectsItem__img" href="projects.html">
+                                <img
+                                    src="https://reacjs-portfolio03102021.vercel.app/static/media/cavinimg.77adeaa3.jpg">
+                            </a>
+                            <div class="projectsItem__info">
+                                <a href="projects.html">
+                                    <h3 class="projectsItem__title">Cavin's Portfolio</h3>
+                                </a>
+                                <p class="projectsItem__des">
+                                    A portfolio for Cavin jr. A artist from New york city.
+                                    The portfolio is made using ReactJs and GatsbyJs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <a class="projectsItem__img" href="projects.html">
+                                <img
+                                    src="https://reacjs-portfolio03102021.vercel.app/static/media/projectImg.771236e1.png">
+                            </a>
+                            <div class="projectsItem__info">
+                                <a href="projects.html">
+                                    <h3 class="projectsItem__title">Tracking Soft</h3>
+                                </a>
+                                <p class="projectsItem__des">
+                                    A tracking website that will show the performance of the website.
+                                    Also you will get some useful advice to improve the performance.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -164,7 +171,6 @@
                 </div>
             </div>
         </div>
-        <!-- FOOTER CỦA PAGE -->
     </div>
 </body>
 

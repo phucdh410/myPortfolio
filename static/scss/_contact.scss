@@ -1,4 +1,5 @@
 .contactPage{
+    padding: 100px 0px;
     .contactSection__wrapper{
         display: flex;
         gap: 40px;
@@ -8,15 +9,19 @@
         position: relative;
         flex-wrap: wrap;
         ::after{
-            position: absolute;
-            content: "";
-            width: 2px;
-            height: 50%;
-            background-color: $fontColor;
-            left: 50%;
-            top: 30%;
-            transform: translate(-50%, -50%);
-            color: $fontColor;
+            display: none;
+            @media screen and (min-width: 1162px) {
+                display: flex;
+                position: absolute;
+                content: "";
+                width: 2px;
+                height: 50%;
+                background-color: $fontColor;
+                left: 50%;
+                top: 30%;
+                transform: translate(-50%, -50%);
+                color: $fontColor;
+            }
         }
     }
     .left{
