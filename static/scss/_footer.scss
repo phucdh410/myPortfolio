@@ -1,0 +1,36 @@
+.information{
+    padding-top: 20px;
+    background-color: $bgitemColor;
+    .container{
+        display: flex;
+        gap: 30px;
+    }
+    .footer__col1, .footer__col2, .footer__col3, .footer__col4{
+        flex: 1 1 0%;
+    }
+    .footer__info{
+        margin-top: 5px;
+    }
+    .copyright{
+        background-color: $bgColor;
+        text-align: left;
+        margin-top: 20px;
+        .info{
+            font-size: 25px;
+            margin-left: 0px;
+        }
+    }
+}
+.links, .contact, .social{
+    .heading{
+        @include headingFooter();
+        margin-bottom: 20px;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    a{
+        color: $fontColor;
+        font-size: 20px;
+    }
+}

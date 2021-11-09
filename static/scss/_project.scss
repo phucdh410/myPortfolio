@@ -1,0 +1,61 @@
+.projects{
+    padding: 40px 0px;
+    .projects__search{
+        position: relative;
+        width: 350px;
+        margin-top: 40px;
+        input{
+            width: 100%;
+            font-size: 15px;
+            padding: 8px;
+            color: black;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+        }
+        svg{
+            @include svgStyle();
+            position: absolute;
+            width: 30px;
+            right: 10px;
+            path{
+                color: $bgitemColor;
+            }
+        }
+    }
+    .projects__allItems{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 70px;
+        margin-top: 40px;
+    }
+}
+.items{
+    .projectsItem__img{
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 12px;
+        display: inline-block;
+        border: 3px solid $bdColor;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .projectsItem__info{
+        margin-top: 5px;
+        background-color: $bgitemColor;
+        padding: 10px;
+        border-radius: 12px;
+    }
+    .projectsItem__title{
+        color: $fontColor;
+        font-size: 30px;
+    }
+    .projectsItem__des{
+        font-size: 15px;
+        font-family: $font;
+        margin-top: 15px;
+    }
+}

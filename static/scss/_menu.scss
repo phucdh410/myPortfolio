@@ -1,0 +1,29 @@
+#menu{
+    max-width: 100%;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    ul{
+        font-size: 20px;
+        text-align: center;
+        li{
+            display: inline;
+            text-align: center;
+            list-style-type: none;
+            color: $fontColor;
+            a:link{
+                padding: 10px;
+                color: $fontColor;
+                border-radius: 10px;
+                border-style: hidden;
+            }
+            a:visited{
+                color: $fontColor;
+            }
+            a:hover{
+                background-color: $bgitemColor;
+            }
+        }
+    }
+}
